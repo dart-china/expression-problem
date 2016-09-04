@@ -5,15 +5,15 @@ abstract class ExpressionWithEval {
 }
 
 abstract class AdditionWithEval {
-  get operator1;
-  get operator2;
-  get eval => operator1.eval + operator2.eval;
+  get operand1;
+  get operand2;
+  get eval => operand1.eval + operand2.eval;
 }
 
 abstract class SubstractionWithEval {
-  get operator1;
-  get operator2;
-  get eval => operator1.eval - operator2.eval;
+  get operand1;
+  get operand2;
+  get eval => operand1.eval - operand2.eval;
 }
 
 abstract class NumberWithEval {

@@ -4,17 +4,23 @@ import 'abstract_expression.dart';
 import 'evaluator.dart';
 import 'multiplication/multiplication.dart';
 import 'multiplication/evaluator.dart';
+import 'string_convert.dart';
 
-abstract class Expression = AbstractExpression with ExpressionWithEval;
+abstract class Expression = AbstractExpression
+    with ExpressionWithEval, ExpressionWithStringConversion;
 
-class Addition = AbstractAddition with AdditionWithEval implements Expression;
-
-class Subtraction = AbstractSubtraction
-    with SubstractionWithEval
+class Addition = AbstractAddition
+    with AdditionWithEval, AdditionWithStringConversion
     implements Expression;
 
-class Number = AbstractNumber with NumberWithEval implements Expression;
+class Subtraction = AbstractSubtraction
+    with SubstractionWithEval, SubtractionWithStringConversion
+    implements Expression;
+
+class Number = AbstractNumber
+    with NumberWithEval, NumberWithStringConversion
+    implements Expression;
 
 class Multiplication = AbstractMultiplication
-    with MultiplicationWithEval
+    with MultiplicationWithEval, MultiplicationWithStringConversion
     implements Expression;

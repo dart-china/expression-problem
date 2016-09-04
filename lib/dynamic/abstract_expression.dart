@@ -3,15 +3,15 @@ library abstract_expression;
 abstract class AbstractExpression {}
 
 abstract class AbstractAddition extends AbstractExpression {
-  var operator1, operator2;
+  var operand1, operand2;
 
-  AbstractAddition(this.operator1, this.operator2);
+  AbstractAddition(this.operand1, this.operand2);
 }
 
 abstract class AbstractSubtraction extends AbstractExpression {
-  var operator1, operator2;
+  var operand1, operand2;
 
-  AbstractSubtraction(this.operator1, this.operator2);
+  AbstractSubtraction(this.operand1, this.operand2);
 }
 
 abstract class AbstractNumber extends AbstractExpression {
