@@ -1,8 +1,8 @@
-import 'package:expression_problem/dynamic/expressions.dart';
+import 'package:expression_problem/dynamic/expressions.dart' as dynamicVersion;
 
 main() {
-  var expression = new Multiplication(
-      new Addition(new Number(4), new Number(2)),
-      new Subtraction(new Number(10), new Number(7)));
-  print('Expression $expression eval: ${expression.eval}');
+  var dynamicExpression = new dynamicVersion.Multiplication(
+      new dynamicVersion.Addition(new dynamicVersion.Number(4), new dynamicVersion.Number(2)),
+      new dynamicVersion.Subtraction(new dynamicVersion.Number(10), new dynamicVersion.Number(7)));
+  print('Expression $dynamicExpression eval: ${dynamicExpression.eval}');
 }
