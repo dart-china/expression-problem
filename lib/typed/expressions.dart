@@ -1,4 +1,4 @@
-library dynamic_expressions;
+library typed_expressions;
 
 import 'abstractExpression.dart';
 import 'evaluator.dart';
