@@ -1,6 +1,6 @@
 The Expression Problem 表达式问题
 --
-The expression problem source code in The Dart Programming Language.
+Example code for the expression problem in The Dart Programming Language.
 
 《Dart编程语言》中的'表达式问题'的源代码。
 
