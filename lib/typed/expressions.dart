@@ -1,6 +1,6 @@
 library typed_expressions;
 
-import 'abstractExpression.dart';
+import 'abstract_expression.dart';
 import 'evaluator.dart';
 import 'multiplication/multiplication.dart';
 import 'multiplication/evaluator.dart';

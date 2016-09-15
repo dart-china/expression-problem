@@ -4,6 +4,15 @@ The expression problem source code in The Dart Programming Language.
 
 《Dart编程语言》中的'表达式问题'的源代码。
 
+    执行文件：
+    bin/main.dart
+
+    源文件：
+    lib
+    |- dynamic 动态版本（不使用类型）
+    |_ typed 使用类型版本
+    |_ generic 使用泛型版本
+
 --------------------------
 
 [What is expression problem?](https://en.wikipedia.org/wiki/Expression_problem)
